@@ -12,7 +12,7 @@ This is a simple Simon game implemented in JavaScript.
 6. If you make a mistake, the game will end, and you'll see a "Game Over" message.
 7. Press any key to restart the game.
 
-[Click here to play the game](#)
+[Click here to play the game](https://kartikg1809.github.io/Simon_Game/)
 
 ## Features
 
