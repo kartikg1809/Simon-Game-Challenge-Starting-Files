@@ -8,15 +8,16 @@ let started = false;
 let level = 0;
 $(document).keypress(function(){
     if(!started){
-        started = true;
-        $("#level-title").text("Level-"+level);
+        $("#level-title").text("Level "+level);
         newSequence();
+        started = true;
     }
 });
 
 function newSequence(){
     userClickedPattern = [];
     level++;
+    $("#level-title").text("Level " + level);
     let randomNumber = Math.floor(Math.random() * 4);
     randomColor=options[randomNumber];
     gamePattern.push(randomColor);
